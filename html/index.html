@@ -60,7 +60,7 @@
       
     <article id="guest-container">
     <h1 id="guest-title"><span>Guest</span> Book</h1>
-      <section id="guest-item-container">
+      <form id="guest-item-container" onsubmit="return false">
         <div id="guest-item-input">
           이름 : <input type="text" placeholder="닉네임을 입력해주세요." />
         </div>
@@ -84,7 +84,11 @@
           <input type="checkbox" id="check-movie5"/>
           <label for="check-movie5"><span>범죄도시2</span></label>
         </div>
-      </section>
+        <div>
+          <button type="button">등록</button>
+          <button type="reset">취소</button>
+        </div>
+      </form>
       <section id="guest-reply"></section>
       </section>
     </article>

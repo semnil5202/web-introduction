@@ -174,3 +174,26 @@ body {
   background-color: #001630;
   border-color: #001630;
 }
+
+#guest-item-container button {
+  width: 80px;
+  height: 32px;
+  margin-top: 32px;
+  margin-left: 12px;
+  font-size: 16px;
+  background-color: #001630;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#guest-item-container button:active {
+  box-shadow: inset 2px 2px 8px white;
+}
+
+#guest-reply-item {
+  margin-top: 28px;
+  border-top: 1px solid #001630;
+  width: 320px;
+}
