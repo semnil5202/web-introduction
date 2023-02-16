@@ -1,15 +1,15 @@
-/* profile container */
 body {
   margin: 0;
 }
 
+/* profile container */
 #profile-container {
   position: fix;
   background-color: #001630;
   width: 250px;
   height: 100vh;
   color: white;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,4 +23,27 @@ body {
 
 #profile-item {
   opacity: 80%;
+}
+
+/* about container */
+#about-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+#about-container h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0;
+}
+
+#about-container h1 span {
+  color: #001630;
+}
+
+#about-item {
+  font-size: 16px;
+  margin-top: 28px;
 }
