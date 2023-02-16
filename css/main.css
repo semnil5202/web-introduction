@@ -206,7 +206,6 @@ article {
 /* reply */
 #guest-reply {
   width: 75vw;
-  height: 12vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
