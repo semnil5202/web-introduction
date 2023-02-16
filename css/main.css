@@ -128,7 +128,7 @@ article {
 }
 
 #guest-title {
-  margin-bottom: 44px;
+  margin-bottom: 32px;
   font-size: 60px;
   font-weight: 600;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -203,8 +203,20 @@ article {
   box-shadow: inset 2px 2px 8px white;
 }
 
+/* reply */
+#guest-reply {
+  width: 75vw;
+  height: 12vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
 #guest-reply-item {
   margin-top: 28px;
+  margin-left: 20px;
   border-top: 1px solid #d0d0d0;
   width: 320px;
 }
