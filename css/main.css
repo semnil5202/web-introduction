@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+article {
+  transition: all 0.5s ease-in;
+}
+
 /* profile container */
 #profile-container {
   position: fixed;
@@ -100,6 +104,13 @@ body {
 #top-five-item img {
   width: 14vw;
   height: 20vw;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+
+#top-five-item img:hover {
+  transform: scale(1.25);
+  transition: all 0.2s ease-in;
 }
 
 #top-five-item div {
@@ -194,6 +205,6 @@ body {
 
 #guest-reply-item {
   margin-top: 28px;
-  border-top: 1px solid #001630;
+  border-top: 1px solid #d0d0d0;
   width: 320px;
 }
