@@ -1,1 +1,26 @@
+/* profile container */
+body {
+  margin: 0;
+}
 
+#profile-container {
+  position: fix;
+  background-color: #001630;
+  width: 250px;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile-img img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+#profile-item {
+  opacity: 80%;
+}
